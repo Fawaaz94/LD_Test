@@ -1,0 +1,195 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Travel Advice API",
+    "version": "1.0.0",
+    "description": "API that returns travel advice content for countries."
+  },
+  "servers": [
+    {
+      "url": "https://yourusername.github.io/your-repo"
+    }
+  ],
+  "paths": {
+    "/travel-advice.json": {
+      "get": {
+        "summary": "Get travel advice data",
+        "operationId": "getTravelAdvice",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TravelAdviceResponse"
+                },
+                "example": {
+                  "value": [
+                    {
+                      "id": "CH-en",
+                      "iso_code": "CH",
+                      "country": "Switzerland",
+                      "language": "en",
+                      "published_at": "11.03.2026",
+                      "valid_on": "13.03.2026",
+                      "advice_against": "none",
+                      "has_travel_advice": true,
+                      "update_information": {
+                        "meta": {
+                          "html": "<figcaption>Valid on: 13.03.2026 | Published on: 11.03.2026 | <a href='https://example-travel-alerts.ch/subscribe'>Set up email notifications</a></figcaption>"
+                        },
+                        "html": "<figcaption><p>Winter transport updates were added. Travel remains possible across the country, but weather-related disruptions may affect mountain regions.</p></figcaption>"
+                      },
+                      "general_assessment": {
+                        "html": "<p>Switzerland is generally a safe and well-organized travel destination with reliable public services and infrastructure.</p><p>Visitors should still monitor local conditions, especially in alpine areas during winter and early spring.</p>"
+                      },
+                      "chapters": [
+                        {
+                          "title": "Regional Risks",
+                          "htmlTitle": "<h2 class='h2' id='regional-risks'>Regional Risks</h2>",
+                          "anchorUrl": "#regional-risks",
+                          "html": "<div class='vertical-spacing'><p>There are currently no major nationwide security risks for travelers.</p></div>"
+                        }
+                      ],
+                      "disclaimer_of_liability": {
+                        "html": "<p><strong>Disclaimer</strong><br>This travel advice is provided as general guidance for planning purposes.</p>"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "TravelAdviceResponse": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TravelAdviceItem"
+            }
+          }
+        },
+        "required": [
+          "value"
+        ]
+      },
+      "TravelAdviceItem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "iso_code": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": "string",
+            "example": "11.03.2026"
+          },
+          "valid_on": {
+            "type": "string",
+            "example": "13.03.2026"
+          },
+          "advice_against": {
+            "type": "string"
+          },
+          "has_travel_advice": {
+            "type": "boolean"
+          },
+          "update_information": {
+            "$ref": "#/components/schemas/UpdateInformation"
+          },
+          "general_assessment": {
+            "$ref": "#/components/schemas/HtmlContent"
+          },
+          "chapters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Chapter"
+            }
+          },
+          "disclaimer_of_liability": {
+            "$ref": "#/components/schemas/HtmlContent"
+          }
+        },
+        "required": [
+          "id",
+          "iso_code",
+          "country",
+          "language",
+          "published_at",
+          "valid_on",
+          "advice_against",
+          "has_travel_advice",
+          "update_information",
+          "general_assessment",
+          "chapters",
+          "disclaimer_of_liability"
+        ]
+      },
+      "UpdateInformation": {
+        "type": "object",
+        "properties": {
+          "meta": {
+            "$ref": "#/components/schemas/HtmlContent"
+          },
+          "html": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "meta",
+          "html"
+        ]
+      },
+      "HtmlContent": {
+        "type": "object",
+        "properties": {
+          "html": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "html"
+        ]
+      },
+      "Chapter": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "htmlTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "anchorUrl": {
+            "type": "string"
+          },
+          "html": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "htmlTitle",
+          "anchorUrl",
+          "html"
+        ]
+      }
+    }
+  }
+}
