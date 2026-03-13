@@ -11,71 +11,149 @@
       "has_travel_advice": true,
       "update_information": {
         "meta": {
-          "html": "<figcaption>Valid on: 13.03.2026 | Published on: 11.03.2026 | <a href='https://example-travel-alerts.ch/subscribe'>Set up email notifications</a></figcaption>"
+          "html": "<figcaption>Valid on: 13.03.2026 | Published on: 11.03.2026 | <a href='https://example.org/alerts/switzerland'>Set up email notifications</a></figcaption>"
         },
-        "html": "<figcaption><p>Winter transport updates were added. Travel remains possible across the country, but weather-related disruptions may affect mountain regions.</p></figcaption>"
+        "html": "<figcaption><p>Heavy snow warnings were added for selected alpine regions. Travel remains open across most of the country.</p></figcaption>"
       },
       "general_assessment": {
-        "html": "<p>Switzerland is generally a safe and well-organized travel destination with reliable public services and infrastructure.</p><p>Visitors should still monitor local conditions, especially in alpine areas during winter and early spring.</p>"
+        "html": "<p>Switzerland is generally a safe destination with excellent infrastructure and reliable public services.</p><p>Travelers should still monitor weather and transport updates, especially in mountain areas.</p>"
       },
       "chapters": [
         {
           "title": "Regional Risks",
           "htmlTitle": "<h2 class='h2' id='regional-risks'>Regional Risks</h2>",
           "anchorUrl": "#regional-risks",
-          "html": "<div class='vertical-spacing'><p>There are currently no major nationwide security risks for travelers. In mountain regions, weather conditions can change quickly and may affect access to roads, hiking routes, and ski areas.</p><p><strong>Check local forecasts and transport notices before traveling to alpine destinations.</strong></p></div>"
+          "html": "<div class='vertical-spacing'><p>No major nationwide security risks are currently reported. In alpine regions, weather conditions can change rapidly.</p><p><strong>Check local transport and weather alerts before visiting mountain destinations.</strong></p></div>"
         },
         {
           "title": "Safety and Security",
           "htmlTitle": "<h2 class='h2' id='safety-and-security'>Safety and Security</h2>",
           "anchorUrl": "#safety-and-security",
-          "html": "<div class='vertical-spacing'><p>Petty theft can occur in busy tourist zones, train stations, and airports, especially in Zurich, Geneva, and other major cities.</p><p>Keep personal belongings secure and remain alert in crowded areas.</p></div>"
+          "html": "<div class='vertical-spacing'><p>Petty theft may occur in busy tourist areas, train stations, and airports.</p><p>Keep valuables secure and stay alert in crowded public places.</p></div>"
         },
         {
           "title": "Transport and Infrastructure",
           "htmlTitle": "<h2 class='h2' id='transport-and-infrastructure'>Transport and Infrastructure</h2>",
           "anchorUrl": "#transport-and-infrastructure",
-          "html": "<div class='vertical-spacing'><p>Public transportation is extensive, punctual, and widely used. Weather conditions may temporarily disrupt rail, road, and cable-car services in mountainous areas.</p><p><strong>Snow, ice, and avalanche precautions</strong> may lead to short-notice road closures or delays.</p></div>"
+          "html": "<div class='vertical-spacing'><p>Public transportation is extensive and dependable. Snow, ice, and avalanche measures may cause temporary delays in mountain regions.</p></div>"
         },
         {
           "title": "Local Laws and Customs",
           "htmlTitle": "<h2 class='h2' id='local-laws-and-customs'>Local Laws and Customs</h2>",
           "anchorUrl": "#local-laws-and-customs",
-          "html": "<div class='vertical-spacing'><p>Travelers are expected to respect local regulations, including ticket validation on public transport, noise restrictions in residential areas, and environmental rules in protected natural zones.</p><p>Failure to present a valid ticket on trains, trams, or buses may result in an on-the-spot fine.</p></div>"
-        },
-        {
-          "title": "Outdoor and Nature Risks",
-          "htmlTitle": "<h2 class='h2' id='outdoor-and-nature-risks'>Outdoor and Nature Risks</h2>",
-          "anchorUrl": "#outdoor-and-nature-risks",
-          "html": "<div class='vertical-spacing'><p>Outdoor activities such as skiing, mountaineering, hiking, and lake sports are popular but involve natural risks.</p><p>Weather can change rapidly in alpine terrain. Avalanches, rockfalls, and slippery trails may present serious hazards depending on the season.</p><p>Use proper equipment and follow official safety guidance.</p></div>"
+          "html": "<div class='vertical-spacing'><p>Visitors should respect public order rules, ticketing requirements on transport, and local environmental protections.</p></div>"
         },
         {
           "title": "Health and Medical Care",
           "htmlTitle": "<h2 class='h2' id='health-and-medical-care'>Health and Medical Care</h2>",
           "anchorUrl": "#health-and-medical-care",
-          "html": "<div class='vertical-spacing'><p>Medical care in Switzerland is of a high standard. Hospitals and clinics are well equipped, but treatment can be expensive without adequate travel insurance.</p><p>Visitors should carry proof of insurance and ensure coverage for emergency treatment, mountain rescue, and winter sports if relevant.</p></div>"
-        },
-        {
-          "title": "Weather Considerations",
-          "htmlTitle": "<h2 class='h2' id='weather-considerations'>Weather Considerations</h2>",
-          "anchorUrl": "#weather-considerations",
-          "html": "<div class='vertical-spacing'><p>Winter weather may affect higher-altitude regions from late autumn through spring. Heavy snowfall can influence rail schedules, driving conditions, and access to remote areas.</p><p>Check weather and avalanche bulletins before planning mountain travel.</p></div>"
-        },
-        {
-          "title": "Entry and Travel Documents",
-          "htmlTitle": "<h2 class='h2' id='entry-and-travel-documents'>Entry and Travel Documents</h2>",
-          "anchorUrl": "#entry-and-travel-documents",
-          "html": "<div class='vertical-spacing'><p>Travelers should carry a valid passport or national identity document accepted for entry. Requirements may vary depending on nationality and travel purpose.</p><p>Ensure your documents remain valid for the entire duration of your stay.</p></div>"
+          "html": "<div class='vertical-spacing'><p>Medical care is of a high standard, but treatment can be expensive without insurance.</p><p>Carry proof of travel insurance covering emergency care and mountain rescue if relevant.</p></div>"
         },
         {
           "title": "Useful Contacts",
           "htmlTitle": "<h2 class='h2' id='useful-contacts'>Useful Contacts</h2>",
           "anchorUrl": "#useful-contacts",
-          "html": "<div class='vertical-spacing'><p>Emergency services: 112</p><p>Police: 117<br>Ambulance: 144<br>Fire brigade: 118</p><p><a href='https://www.example.ch/tourism'>Tourism information</a><br><a href='https://www.example.ch/weather'>Weather updates</a></p></div>"
+          "html": "<div class='vertical-spacing'><p>Emergency services: 112</p><p>Police: 117<br>Ambulance: 144<br>Fire brigade: 118</p></div>"
         }
       ],
       "disclaimer_of_liability": {
-        "html": "<p><strong>Disclaimer</strong><br>This travel advice is provided as general guidance for planning purposes. Conditions can change quickly, especially in alpine environments. Travelers remain responsible for their own preparation, decisions, and safety arrangements.</p>"
+        "html": "<p><strong>Disclaimer</strong><br>This travel advice is general guidance only. Travelers remain responsible for their own decisions and preparation.</p>"
+      }
+    },
+    {
+      "id": "CH-de",
+      "iso_code": "CH",
+      "country": "Switzerland",
+      "language": "de",
+      "published_at": "11.03.2026",
+      "valid_on": "13.03.2026",
+      "advice_against": "none",
+      "has_travel_advice": true,
+      "update_information": {
+        "meta": {
+          "html": "<figcaption>Valid on: 13.03.2026 | Published on: 11.03.2026 | <a href='https://example.org/alerts/schweiz'>E-Mail-Benachrichtigung einrichten</a></figcaption>"
+        },
+        "html": "<figcaption><p>Hinweise zu winterbedingten Verkehrsunterbrüchen in Bergregionen wurden ergänzt.</p></figcaption>"
+      },
+      "general_assessment": {
+        "html": "<p>Die Schweiz ist grundsätzlich ein sicheres Reiseziel mit sehr guter Infrastruktur.</p><p>In Bergregionen sollten Wetter- und Verkehrsmeldungen beachtet werden.</p>"
+      },
+      "chapters": [
+        {
+          "title": "Regionale Risiken",
+          "htmlTitle": "<h2 class='h2' id='regionale-risiken'>Regionale Risiken</h2>",
+          "anchorUrl": "#regionale-risiken",
+          "html": "<div class='vertical-spacing'><p>Es bestehen derzeit keine grösseren landesweiten Sicherheitsrisiken. In den Alpen können Wetterbedingungen rasch wechseln.</p></div>"
+        },
+        {
+          "title": "Kriminalität",
+          "htmlTitle": "<h2 class='h2' id='kriminalitaet'>Kriminalität</h2>",
+          "anchorUrl": "#kriminalitaet",
+          "html": "<div class='vertical-spacing'><p>In grösseren Städten und an Bahnhöfen kann es vereinzelt zu Taschendiebstählen kommen.</p></div>"
+        },
+        {
+          "title": "Verkehr und Infrastruktur",
+          "htmlTitle": "<h2 class='h2' id='verkehr-und-infrastruktur'>Verkehr und Infrastruktur</h2>",
+          "anchorUrl": "#verkehr-und-infrastruktur",
+          "html": "<div class='vertical-spacing'><p>Das öffentliche Verkehrsnetz ist dicht und zuverlässig. Witterungsbedingungen können in Berggebieten kurzfristig zu Einschränkungen führen.</p></div>"
+        },
+        {
+          "title": "Nützliche Adressen",
+          "htmlTitle": "<h2 class='h2' id='nuetzliche-adressen'>Nützliche Adressen</h2>",
+          "anchorUrl": "#nuetzliche-adressen",
+          "html": "<div class='vertical-spacing'><p>Allgemeiner Notruf: 112</p><p>Polizei: 117<br>Ambulanz: 144<br>Feuerwehr: 118</p></div>"
+        }
+      ],
+      "disclaimer_of_liability": {
+        "html": "<p><strong>Haftungsausschluss</strong><br>Diese Reisehinweise dienen der allgemeinen Orientierung und ersetzen keine eigene Vorbereitung.</p>"
+      }
+    },
+    {
+      "id": "CH-fr",
+      "iso_code": "CH",
+      "country": "Switzerland",
+      "language": "fr",
+      "published_at": "11.03.2026",
+      "valid_on": "13.03.2026",
+      "advice_against": "none",
+      "has_travel_advice": true,
+      "update_information": {
+        "meta": {
+          "html": "<figcaption>Valid on: 13.03.2026 | Published on: 11.03.2026 | <a href='https://example.org/alerts/suisse'>Configurer les notifications par e-mail</a></figcaption>"
+        },
+        "html": "<figcaption><p>Des informations sur les perturbations hivernales dans certaines zones alpines ont été ajoutées.</p></figcaption>"
+      },
+      "general_assessment": {
+        "html": "<p>La Suisse est généralement une destination sûre avec une infrastructure de haute qualité.</p><p>Les voyageurs doivent suivre les prévisions météorologiques et les informations de transport dans les zones montagneuses.</p>"
+      },
+      "chapters": [
+        {
+          "title": "Risques régionaux",
+          "htmlTitle": "<h2 class='h2' id='risques-regionaux'>Risques régionaux</h2>",
+          "anchorUrl": "#risques-regionaux",
+          "html": "<div class='vertical-spacing'><p>Aucun risque majeur à l’échelle nationale n’est actuellement signalé. En montagne, les conditions peuvent évoluer rapidement.</p></div>"
+        },
+        {
+          "title": "Sécurité",
+          "htmlTitle": "<h2 class='h2' id='securite'>Sécurité</h2>",
+          "anchorUrl": "#securite",
+          "html": "<div class='vertical-spacing'><p>Des vols à la tire peuvent se produire dans les zones touristiques très fréquentées et les gares.</p></div>"
+        },
+        {
+          "title": "Transport et infrastructure",
+          "htmlTitle": "<h2 class='h2' id='transport-et-infrastructure'>Transport et infrastructure</h2>",
+          "anchorUrl": "#transport-et-infrastructure",
+          "html": "<div class='vertical-spacing'><p>Le réseau de transport public est dense et efficace. Des perturbations temporaires peuvent survenir en raison de la neige ou du verglas.</p></div>"
+        },
+        {
+          "title": "Contacts utiles",
+          "htmlTitle": "<h2 class='h2' id='contacts-utiles'>Contacts utiles</h2>",
+          "anchorUrl": "#contacts-utiles",
+          "html": "<div class='vertical-spacing'><p>Urgences générales: 112</p><p>Police: 117<br>Ambulance: 144<br>Pompiers: 118</p></div>"
+        }
+      ],
+      "disclaimer_of_liability": {
+        "html": "<p><strong>Avertissement</strong><br>Ces conseils aux voyageurs sont fournis à titre indicatif uniquement.</p>"
       }
     }
   ]
