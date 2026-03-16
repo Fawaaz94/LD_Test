@@ -18,6 +18,38 @@
       "general_assessment": {
         "html": "<p>Switzerland is generally a safe destination with excellent infrastructure and reliable public services.</p><p>Travelers should still monitor weather and transport updates, especially in mountain areas.</p>"
       },
+        "media": {
+        "map_embed": {
+          "url": "https://www.google.com/maps?q=Switzerland&output=embed",
+          "title": "Map of Switzerland",
+          "height": "450",
+          "width": "100%",
+          "ratio": "16/9"
+        }
+      },
+       "featured_card": {
+        "title": "Swiss Alps Winter Travel",
+        "imageHyperlink": "https://images.example.org/switzerland/alps-winter.jpg",
+        "imagePosition": "top",
+        "body": "Snow conditions in alpine regions can affect trains, roads, and cable cars. Check local forecasts before departure.",
+        "metadata": "Updated 11 March 2026",
+        "href": "https://example.org/switzerland/alps-travel",
+        "isExternal": "true"
+      },
+       "useful_links": [
+        {
+          "label": "Federal Rail Travel Updates",
+          "href": "https://example.org/switzerland/rail-updates"
+        },
+        {
+          "label": "Mountain Weather Forecast",
+          "href": "https://example.org/switzerland/mountain-weather"
+        },
+        {
+          "label": "Emergency and Safety Information",
+          "href": "https://example.org/switzerland/emergency"
+        }
+      ],
       "chapters": [
         {
           "title": "Regional Risks",
